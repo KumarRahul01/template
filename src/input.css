@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .onActive {
+    border: 2px solid;
+    border-color: #2174ea;
+    cursor: default;
+  }
+  /* hover color change */
+
+  /* arrow color change */
+ .arrow-col > div > img{
+  filter: opacity(0.5);
+ }
+
+ .arrow-col:hover > div> img{
+  opacity: 0.9;
+  filter: invert(42%) sepia(12%) saturate(4753%) hue-rotate(185deg) brightness(96%) contrast(110%);
+}
+
+  .h-col:hover p {
+    color: #000;
+  }
+
+  .h-col:hover h2 {
+    color: #000;
+  }
+
+  .img-opacity > div> img{
+    filter: opacity(0.5);
+  }
+
+  .img-opacity:hover > div> img{
+    opacity: 0.9;
+    filter: invert(85%) sepia(73%) saturate(6829%) hue-rotate(323deg) brightness(108%) contrast(108%);
+  }
+}
+
+.blue {
+  filter: invert(34%) sepia(49%) saturate(2880%) hue-rotate(204deg)
+    brightness(95%) contrast(92%);
+}
+
+.font-head {
+  font-family: "Playfair Display", serif;
+}
+
+.font-body {
+  font-family: "Inter", sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(to right, #2174ea, #5696ff);
+}
+
+.product-btn {
+  background-color: #475569;
+}
+
+.product-btn:hover {
+  background: linear-gradient(to right, #242832, #252831);
+}
