@@ -745,6 +745,10 @@ video {
   width: 100%;
 }
 
+.w-3\/5{
+  width: 60%;
+}
+
 .max-w-screen-xl{
   max-width: 1280px;
 }
@@ -1733,6 +1737,10 @@ video {
 
   .lg\:w-full{
     width: 100%;
+  }
+
+  .lg\:w-2\/5{
+    width: 40%;
   }
 
   .lg\:flex-row{
