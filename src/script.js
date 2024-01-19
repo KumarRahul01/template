@@ -1,5 +1,8 @@
-const btn = document.querySelector("#btn");
+const hamburder = document.querySelector("#hamburder");
 
-btn.addEventListener("onclick", function () {
-  console.log("Hello");
+hamburder.addEventListener("click", function(){
+  // hamburder.style.marginTop = "10px";
+  const menuBar = document.querySelector("#menu-bar");
+  menuBar.classList.toggle("show-icons");
+
 });

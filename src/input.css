@@ -66,3 +66,17 @@
 .product-btn:hover {
   background: linear-gradient(to right, #242832, #252831);
 }
+
+.arrow-move i{
+  padding-left: 2px;
+}
+
+.arrow-move:hover i{
+  padding-left: 5px;
+}
+
+.show-icons{
+  display: flex;
+  flex-direction: column;
+  transition: linear 1s ease-in-out;
+}
