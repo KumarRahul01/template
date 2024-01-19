@@ -11,39 +11,37 @@
 
 <body class="overflow-x-hidden">
 
-  <div class="w-full h-screen flex flex-col bg-[#1e293b]">
+  <!-- Navbar -->
+  <div class="w-full py-5 flex flex-row bg-[#1e293b] justify-center items-center">
 
-    <!-- NavBar -->
-    <nav class="m-5 px-5 mx-5 py-2 lg:mx-28 flex flex-row justify-between items-center">
+    <nav class="w-full flex justify-between xl:mx-32 mx-6">
+      <div>
+        <img src="../assets/asset 15.svg" class="blue w-8" alt="">
+      </div>
 
-      <img src="../assets/asset 15.svg" class="blue w-8" alt="">
-
-      <div
-        class="links font-body ml-20 text-md text-center text-[#94a3b8] font-medium hidden md:flex md:space-x-12 md:items-center ">
+      <div class="font-body text-lg text-[#94a3b8] font-medium hidden md:flex md:space-x-10 lg:ml-24">
         <a href="#">Pricing</a>
         <a href="#">About</a>
         <a href="#">Blog</a>
         <a href="#">Resources</a>
       </div>
 
-      <div class="cta hidden text-center font-medium text-md md:flex md:justify-evenly md:items-center">
-        <a href="#hello" class="mx-10 md:mx-10 text-[#94a3b8]">Sign in</a>
-        <a href="#" class="mx-10 text-[#cbd5e1] ">Request</a>
+      <div class="cta hidden text-center font-medium text-lg lg:flex lg:justify-evenly lg:items-center">
+        <a href="#hello" class="lg:mr-5 text-[#94a3b8]">Sign in</a>
+        <a href="#" class="lg:mx-10 text-[#cbd5e1] ">Request</a>
       </div>
 
-      <img src="../assets/asset 17.svg" class="md:hidden" width="20px" alt="">
-
+      <img src="../assets/asset 17.svg" class="lg:hidden" width="20px" alt="">
     </nav>
+  </div>
 
-
+  <!-- Hero Section -->
+  <div class="w-full h-screen flex flex-col bg-[#1e293b] justify-center items-center -mt-16">
     <!-- Hero Section -->
-
-
-    <section id="hero" class="mx-5 my-10 lg:mx-20 xl:mx-32 flex flex-col md:flex-row justify-center items-center">
+    <section id="hero" class="mx-5 md:mx-20 xl:mx-32 flex flex-row lg:flex-row">
 
       <!-- Content -->
-      <div
-        class="flex p-4 lg:p-0 flex-col justify-center items-center lg:flex-row md:w-1/2 md:p-8 text-center md:text-left">
+      <div class="flex p-4 flex-col justify-center items-center lg:flex-row lg:w-1/2 lg:pr-16 text-center lg:text-left">
         <div class="heading text-white">
           <h1 class="font-head text-4xl lg:text-[42px] xl:text-6xl font-bold ">
             Create stunning web experiences
@@ -54,13 +52,13 @@
             results forever.
           </p>
 
-          <div class="md:pt-4 font-semibold font-body md:space-x-5 flex items-center flex-col  md:flex-row">
+          <div class="lg:pt-4 font-semibold font-body lg:space-x-5 flex items-center flex-col  lg:flex-row">
             <button
               class="gradient hover:bg-gradient-to-r from-blue-600 to-blue-500 border-[#93c5fd] ring-offset-1 ring-[#5696ff] px-6 py-3 my-2 rounded-sm">Request
               Demo</button>
 
             <button
-              class="product-btn hover:bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 border-[#12151b] ring-offset-1 ring-[#12151b] px-6 py-3 my-2 rounded-sm">Explore
+              class="product-btn hover:bg-gradient-to-r from-gray-600 to-gray-700 border-[#12151b] ring-[#12151b] px-6 py-3 my-2 rounded-sm">Explore
               Product</button>
           </div>
         </div>
@@ -68,70 +66,71 @@
 
       <!-- Video -->
 
-      <div class="w-1/2 m-2 md:p-3 hidden md:block">
-        <img src="../assets/asset 7.jpeg" class="md:w-full lg:p-6" alt="hero-img">
+      <div class="w-1/2 m-2 lg:p-5 hidden lg:block">
+        <img src="../assets/asset 7.jpeg" class="lg:w-full lg:p-6" alt="hero-img">
       </div>
 
     </section>
   </div>
 
+  <!-- Fearures Section -->
   <section id="features" class="w-full">
     <!-- feature section -->
-    <div class="outer-box lg:px-32 p-10 md:p-14">
+    <div class="outer-box lg:px-32 p-10 lg:p-14">
       <!-- card 1 -->
-      <div class="flex flex-col md:flex-row gap-16 md:gap-20 pt-14">
-        <div class="card">
+      <div class="flex flex-col md:flex-row justify-center pt-14 gap-10 lg:gap-20 ">
+        <div class="card flex flex-col items-center md:items-start">
           <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
 
         <!-- card 2 -->
-        <div class="card">
-          <img src="../assets/asset 20.svg" class="w-16" alt="">
+        <div class="card flex flex-col items-center md:items-start">
+          <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
 
         <!-- card 3 -->
-        <div class="card">
-          <img src="../assets/asset 21.svg" class="w-16" alt="">
+        <div class="card flex flex-col items-center md:items-start">
+          <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
       </div>
 
       <!-- seconf row -->
-      <div class="flex flex-col md:flex-row gap-20 pt-20">
+      <div class="flex flex-col md:flex-row pt-14 gap-10 lg:gap-20">
         <!-- card 4 -->
-        <div class="card">
-          <img src="../assets/asset 22.svg" class="w-16" alt="">
+        <div class="card flex flex-col items-center md:items-start">
+          <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
 
         <!-- card 5 -->
-        <div class="card">
-          <img src="../assets/asset 23.svg" class="w-16" alt="">
+        <div class="card flex flex-col items-center md:items-start">
+          <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
 
         <!-- card 6 -->
-        <div class="card">
-          <img src="../assets/asset 24.svg" class="w-16" alt="">
+        <div class="card flex flex-col items-center md:items-start">
+          <img src="../assets/asset 19.svg" class="w-16" alt="">
           <h2 class="font-head text-2xl font-bold py-5">Robust Workflow</h2>
-          <p class="font-body text-xl">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          <p class="font-body text-xl text-center md:text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             fugiat
             nulla pariatur.</p>
         </div>
@@ -139,19 +138,20 @@
     </div>
   </section>
 
+  <!-- Exclusive Section -->
   <section id="exclusive" class="w-full py-24 px-5 bg-[#F1F4F8]">
 
     <div class="box flex flex-col text-center justify-center items-center">
-      <h2 class="text-4xl md:text-5xl font-head font-bold">Built exclusively for you</h2>
-      <p class="md:w-6/12 text-xl md:text-2xl pt-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+      <h2 class="text-4xl lg:text-5xl font-head font-bold">Built exclusively for you</h2>
+      <p class="lg:w-6/12 text-xl lg:text-2xl pt-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
         officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
     </div>
 
-    <div class="small-img flex justify-center items-center flex-wrap gap-10 md:gap-16 pt-10">
+    <div class="small-img flex justify-center items-center flex-wrap gap-10 lg:gap-16 pt-10">
 
 
       <div class="btn-1 flex flex-col items-center justify-center">
-        <div class="rounded-full cursor-pointer border-2 bg-white shadow-md">
+        <div class="rounded-full cursor-pointer border-2 bg-white shadow-lg">
           <img src="../assets/asset 25.svg" class="w-16" alt="">
         </div>
         <p class="p-3 font-semibold text-xl">Internal FeedBack</p>
@@ -159,14 +159,14 @@
 
 
       <div class="btn-1 flex flex-col items-center justify-center">
-        <div class="rounded-full cursor-pointer border-2 bg-white shadow-md">
+        <div class="rounded-full cursor-pointer border-2 bg-white shadow-lg">
           <img src="../assets/asset 26.svg" class="w-16" alt="">
         </div>
         <p class="p-3 font-semibold text-xl">Internal FeedBack</p>
       </div>
 
       <div class="btn-1 flex flex-col items-center justify-center">
-        <div class="rounded-full cursor-pointer border-2 bg-white shadow-md">
+        <div class="rounded-full cursor-pointer border-2 bg-white shadow-lg">
           <img src="../assets/asset 27.svg" class="w-16" alt="">
         </div>
         <p class="p-3 font-semibold text-xl">Internal FeedBack</p>
@@ -174,7 +174,7 @@
 
 
       <div class="btn-1 flex flex-col items-center justify-center">
-        <div class="rounded-full cursor-pointer border-2 bg-white shadow-md">
+        <div class="rounded-full cursor-pointer border-2 bg-white shadow-lg">
           <img src="../assets/asset 28.svg" class="w-16" alt="">
         </div>
         <p class="p-3 font-semibold text-xl">Internal FeedBack</p>
@@ -186,32 +186,32 @@
 
   <!-- image -->
   <div class="img flex justify-center -mt-16 pb-10">
-    <img src="../assets/asset 8.jpeg" class="md:w-3/5 w-4/5 shadow-2xl" alt="">
+    <img src="../assets/asset 8.jpeg" class="lg:w-3/5 w-4/5 shadow-2xl" alt="">
   </div>
 
-  <hr class="w-10/12 h-[2px] mx-auto my-4 bg-gray-400 border-0 rounded md:my-10">
+  <hr class="w-10/12 h-[2px] mx-auto my-4 bg-gray-400 border-0 rounded lg:my-10">
 
-
+  <!-- Brown Box -->
   <section id="brown-box" class="w-full py-4">
     <div class=" mx-auto text-center flex flex-col justify-center items-center">
       <div>
-        <h2 class="text-4xl md:text-5xl font-head font-bold tracking-wide">The quick brown fox jumped over</h2>
-        <h2 class="text-4xl md:text-5xl font-head font-bold tracking-wide pt-1 md:p-3">the lazy dog</h2>
+        <h2 class="text-4xl lg:text-5xl font-head font-bold tracking-wide">The quick brown fox jumped over</h2>
+        <h2 class="text-4xl lg:text-5xl font-head font-bold tracking-wide pt-1 lg:p-3">the lazy dog</h2>
       </div>
 
       <!-- divide section -->
-      <div class="md:w-10/12 flex flex-col md:flex-row justify-center items-center md:pt-20 pt-10 pb-10">
+      <div class="lg:w-10/12 flex flex-col lg:flex-row justify-center items-center lg:pt-20 pt-10 pb-10">
 
 
         <!-- left -->
-        <div class="md:w-1/2">
-          <img src="../assets/asset 9.png" class="rounded-md w-11/12 p-2 md:p-0 sm:w-3/5 md:w-11/12 mx-auto" alt="">
+        <div class="lg:w-1/2">
+          <img src="../assets/asset 9.png" class="rounded-lg w-11/12 p-2 lg:p-0 sm:w-3/5 lg:w-11/12 mx-auto" alt="">
         </div>
 
 
         <!-- right -->
-        <div class="md:w-1/2 pb-10">
-          <div class="md:ml-10 mt-10 md:text-left p-5 md:p-0">
+        <div class="lg:w-1/2 pb-10">
+          <div class="lg:ml-10 mt-10 lg:text-left p-5 lg:p-0">
             <h2 class="text-3xl font-head font-bold">Built exclusively for you</h2>
             <p class="text-xl my-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
               deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
@@ -219,10 +219,10 @@
 
           <!-- boxes -->
 
-          <div class="flex flex-col justify-center items-center md:pr-10">
+          <div class="flex flex-col justify-center items-center lg:pr-0">
             <!-- box 1 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg lg:ml-10">
               <div class="flex justify-center items-center">
                 <img src="../assets/asset 29.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -236,7 +236,7 @@
 
             <!-- box 2 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg lg:ml-10">
               <div class="flex justify-center items-center">
                 <img src="../assets/asset 29.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -250,7 +250,7 @@
 
             <!-- box 3 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 arrow-col hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg lg:ml-10">
               <div class="flex justify-center items-center">
                 <img src="../assets/asset 29.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -266,40 +266,39 @@
       </div>
     </div>
     </div>
-    <hr class="w-10/12 h-[2px] md:h-[3px] mx-auto bg-gray-400 border-0 rounded md:my-4">
+    <hr class="w-10/12 h-[2px] lg:h-[3px] mx-auto bg-gray-400 border-0 rounded lg:my-4">
   </section>
 
 
-  <!-- experts Section -->
-
+  <!-- Experts Section -->
   <section id="expert" class="w-full py-4">
     <div class=" mx-auto text-center flex flex-col justify-center items-center">
       <div class="box flex flex-col text-center justify-center items-center">
-        <h2 class="text-4xl md:text-5xl font-head font-bold">We're experts and brand creators</h2>
-        <p class="md:w-6/12 text-xl md:text-2xl md:pt-5 p-5">Excepteur sint occaecat cupidatat non proident, sunt in
+        <h2 class="text-4xl lg:text-5xl font-head font-bold">We're experts and brand creators</h2>
+        <p class="lg:w-6/12 text-xl lg:text-2xl lg:pt-5 p-5">Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui
           officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
       </div>
 
       <!-- divide section -->
       <div
-        class="md:w-10/12 flex flex-col-reverse md:flex-row-reverse justify-center items-center md:pt-20 pt-10 pb-10">
+        class="lg:w-10/12 flex flex-col-reverse lg:flex-row-reverse justify-center items-center lg:pt-20 pt-10 pb-10">
 
 
         <!-- left -->
-        <div class="md:w-1/2">
-          <img src="../assets/asset 13.png" class="rounded-md w-11/12 p-2 md:p-0 sm:w-3/5 md:w-11/12 mx-auto" alt="">
+        <div class="lg:w-1/2">
+          <img src="../assets/asset 13.png" class="rounded-lg w-11/12 p-2 lg:p-0 sm:w-3/5 lg:w-11/12 mx-auto" alt="">
         </div>
 
 
         <!-- right -->
-        <div class="md:w-1/2 pb-10">
+        <div class="lg:w-1/2 pb-10">
           <!-- boxes -->
-          <div class="flex flex-col justify-center items-center md:pr-10">
+          <div class="flex flex-col justify-center items-center lg:pr-0">
 
             <!-- box 1 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg">
               <div class="flex justify-center items-center">
                 <img src="../assets/asset 35.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -313,7 +312,7 @@
 
             <!-- box 2 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg">
               <div class="flex justify-center items-center">
                 <img src="../assets/asset 36.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -327,7 +326,7 @@
 
             <!-- box 3 -->
             <div
-              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-12 rounded-md md:ml-10">
+              class="flex flex-row relative border-2 border-slate-300 m-5 img-opacity hover:h-col hover:onActive hover:shadow-lg pb-5 lg:mr-5 rounded-lg">
               <div class="flex justify-center items-center ">
                 <img src="../assets/asset 37.svg" class="w-4 absolute top-6 left-4" alt="">
               </div>
@@ -346,17 +345,18 @@
   </section>
 
 
+  <!-- GoodBye Section -->
   <section id="good-bye" class="w-full py-4 bg-[#F1F4F8]">
     <div class=" mx-auto text-center flex flex-col justify-center items-center py-14">
       <div class="box flex flex-col text-center justify-center items-center">
-        <h2 class="text-4xl md:text-5xl font-head font-bold">Say goodbye to long queues, big <br> updates, and <span
+        <h2 class="text-4xl lg:text-5xl font-head font-bold">Say goodbye to long queues, big <br> updates, and <span
             class="text-green-600">confusion</span>.</h2>
-        <p class="md:w-6/12 text-xl md:text-2xl md:pt-5 p-5 text-[#64748b]">Excepteur sint occaecat cupidatat non
+        <p class="lg:w-6/12 text-xl lg:text-2xl lg:pt-5 p-5 text-[#64748b]">Excepteur sint occaecat cupidatat non
           proident, sunt in
           culpa qui
           officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
         <!-- button -->
-        <div class="md:pt-3 text-white font-semibold font-body md:space-x-5 flex items-center flex-col md:flex-row">
+        <div class="lg:pt-3 text-white font-semibold font-body lg:space-x-5 flex items-center flex-col lg:flex-row">
           <button
             class="gradient hover:bg-gradient-to-r from-blue-600 to-blue-500 border-[#93c5fd] ring-offset-1 ring-[#5696ff] px-6 py-3 rounded-sm">Request
             Demo</button>
@@ -366,11 +366,11 @@
   </section>
 
 
-
+  <!-- Footer -->
   <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-      <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
+      <div class="lg:flex lg:justify-between">
+        <div class="mb-6 lg:mb-0">
           <a href="https://flowbite.com/" class="flex items-center">
             <img src="../assets/asset 15.svg" class="blue h-8 me-3" alt="FlowBite Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Rahul Kumar</span>
@@ -414,7 +414,7 @@
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="text-center">
-        <span class="text-md text-gray-500 sm:text-center dark:text-gray-400">© 2024 | Made With ❤️ By Rahul
+        <span class="text-lg text-gray-500 sm:text-center dark:text-gray-400">© 2024 | Made With ❤️ By Rahul
           Kumar.
         </span>
       </div>
